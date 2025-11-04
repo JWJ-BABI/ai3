@@ -75,7 +75,7 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
     #   "videos": ["https://youtu.be/XXXXXXXXXXX"]
     # },
 
-    labels[0] : {"texts" : ["데리버거는 맛잇어"],"images" : ["https://i.namu.wiki/i/K-cl9sZYCyUPvRl_vLyH7N-9ACHYH_-iyWOhzENWvzndLx1OwFHm0Dilv2mN8XAzrI8L7bCKYh1KOVuw_bCpcg.webp"],"videos": ["https://www.youtube.com/shorts/szFQ4n4EgGE","https://www.youtube.com/shorts/4xy4e44yzL8"]},
+    labels[0] : {"texts" : ["춘천고등학교"],"images" : ["https://i.namu.wiki/i/K-cl9sZYCyUPvRl_vLyH7N-9ACHYH_-iyWOhzENWvzndLx1OwFHm0Dilv2mN8XAzrI8L7bCKYh1KOVuw_bCpcg.webp"],"videos": ["https://www.youtube.com/shorts/szFQ4n4EgGE","https://www.youtube.com/shorts/4xy4e44yzL8"]},
     labels[1] : {"texts" : ["라이스버거는 맛잇어"],"images" : ["https://i.namu.wiki/i/K-cl9sZYCyUPvRl_vLyH7N-9ACHYH_-iyWOhzENWvzndLx1OwFHm0Dilv2mN8XAzrI8L7bCKYh1KOVuw_bCpcg.webp"],"videos": ["https://www.youtube.com/shorts/szFQ4n4EgGE","https://www.youtube.com/shorts/4xy4e44yzL8"]},
     labels[2] : {"texts" : ["새우버거는 맛잇어"],"images" : ["https://i.namu.wiki/i/K-cl9sZYCyUPvRl_vLyH7N-9ACHYH_-iyWOhzENWvzndLx1OwFHm0Dilv2mN8XAzrI8L7bCKYh1KOVuw_bCpcg.webp"],"videos": ["https://www.youtube.com/shorts/szFQ4n4EgGE","https://www.youtube.com/shorts/4xy4e44yzL8"]},
 }
