@@ -75,9 +75,11 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
     #   "videos": ["https://youtu.be/XXXXXXXXXXX"]
     # },
 
-    labels[0] : {"texts" : ["춘천고등학교"],"images" : ["https://i.namu.wiki/i/K-cl9sZYCyUPvRl_vLyH7N-9ACHYH_-iyWOhzENWvzndLx1OwFHm0Dilv2mN8XAzrI8L7bCKYh1KOVuw_bCpcg.webp"],"videos": ["https://www.youtube.com/shorts/szFQ4n4EgGE","https://www.youtube.com/shorts/4xy4e44yzL8"]},
-    labels[1] : {"texts" : ["라이스버거는 맛잇어"],"images" : ["https://i.namu.wiki/i/K-cl9sZYCyUPvRl_vLyH7N-9ACHYH_-iyWOhzENWvzndLx1OwFHm0Dilv2mN8XAzrI8L7bCKYh1KOVuw_bCpcg.webp"],"videos": ["https://www.youtube.com/shorts/szFQ4n4EgGE","https://www.youtube.com/shorts/4xy4e44yzL8"]},
-    labels[2] : {"texts" : ["새우버거는 맛잇어"],"images" : ["https://i.namu.wiki/i/K-cl9sZYCyUPvRl_vLyH7N-9ACHYH_-iyWOhzENWvzndLx1OwFHm0Dilv2mN8XAzrI8L7bCKYh1KOVuw_bCpcg.webp"],"videos": ["https://www.youtube.com/shorts/szFQ4n4EgGE","https://www.youtube.com/shorts/4xy4e44yzL8"]},
+    labels[0]:{"texts":["데리버거는 롯데리아의 대표적인 햄버거입니다. 하지만 너무 달아서 나는 좋아하지 않아요!!"]},
+    labels[1]:{"texts":["라이스버거는 밥을 번으로 썼는데 처음에는 맛있지만 계속 먹긴 좀 그래요"]},
+    labels[2]:{"texts":["새우버거는 선생님의 롯데리아 1픽이에요. 새우의 바삭함과 안쪽의 부드러움과 타르타르 소스의 조합이 비교할 수 없는 맛을 자아냅니다."]},
+
+
 }
 
 # ======================
