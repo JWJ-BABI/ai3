@@ -74,12 +74,9 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
     #   "images": ["https://.../jjampong1.jpg", "https://.../jjampong2.jpg"],
     #   "videos": ["https://youtu.be/XXXXXXXXXXX"]
     # },
-     labels[0]: {
-       "texts": ["데리버거는", "롯데리아의", "데리야끼 버거입니다."],
-       "images": ["https://imgs.kshop.co.kr//d2/product/emc/202410/39/32/687/3932687_550_20241004102442.jpg"],
-       "videos": ["https://www.youtube.com/watch?v=fiQPOCOgA7A"]
-     },
- 
+     labels[0]: {"texts": ["데리버거는", "롯데리아의", "데리야끼 버거입니다."],},
+     labels[1]: {"texts": ["데리버거는", "롯데리아의", "데리야끼 버거입니다."],},
+     labels[2]: {"texts": ["데리버거는", "롯데리아의", "데리야끼 버거입니다."],},
 
 
 }
