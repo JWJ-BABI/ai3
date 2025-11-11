@@ -75,6 +75,11 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
        "videos": ["https://www.youtube.com/watch?v=x73pLOBz71Q&t=15s"]
      },
 
+     labels[1]: {
+       "texts": ["롯데리아 라이스버거는 밥을 사용한 버거입니다."],
+       "images": ["https://i.namu.wiki/i/2-300o1ZsLKXK55zJJs59Lqcx_5-KEP51qW0fz8dlcNd0JIYaCqBb-0NiCR3G5jUz5nvT39rsluSV8k_Q2CNvQ.webp"],
+       "videos": ["https://www.youtube.com/watch?v=h9RBXTCfQr4"]
+     },
 }
 
 # ======================
