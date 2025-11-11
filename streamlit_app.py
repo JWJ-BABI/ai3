@@ -74,6 +74,19 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
        "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPRX1_kBCOHq1oJQhbF_UEp5uWOKDW4S46Jg&s"],
        "videos": ["https://www.youtube.com/watch?v=fiQPOCOgA7A"]
      },
+
+
+     labels[1]: {
+       "texts": ["데리버거는 롯데리아에서 아주 싼 메뉴입니다."],
+       "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPRX1_kBCOHq1oJQhbF_UEp5uWOKDW4S46Jg&s"],
+       "videos": ["https://www.youtube.com/watch?v=fiQPOCOgA7A"]
+     },
+
+     labels[2]: {
+       "texts": ["데리버거는 롯데리아에서 아주 싼 메뉴입니다."],
+       "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPRX1_kBCOHq1oJQhbF_UEp5uWOKDW4S46Jg&s"],
+       "videos": ["https://www.youtube.com/watch?v=fiQPOCOgA7A"]
+     },
 }
 
 # ======================
