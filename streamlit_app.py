@@ -72,7 +72,7 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
      labels[0]: {
        "texts": ["네이마르는 브라질의 축구선수입니다.", "네이마르는 여친이 많습니다.", "네이마르는 에버랜드에 왔었어요"],
        "images": ["https://.../jjampong1.jpg", "https://.../jjampong2.jpg"],
-       "videos": ["https://youtu.be/XXXXXXXXXXX"]
+       "videos": ["https://www.youtube.com/watch?v=bOd1i4BPrXc"]
      },
 }
 
