@@ -1,4 +1,4 @@
-# streamlit_app.py
+# streamlit_py
 import os, re
 from io import BytesIO
 import numpy as np
@@ -45,7 +45,7 @@ if "last_prediction" not in st.session_state:
 # ======================
 # 모델 로드
 # ======================
-FILE_ID = st.secrets.get("GDRIVE_FILE_ID", "1uj2lD8goJDLo9uSg_8HcT4bxnl2trPc8")
+FILE_ID = st.secrets.get("GDRIVE_FILE_ID", "1o3zlwmIIlLyc8AJJWcacRpc_XThxL3CT")
 MODEL_PATH = st.secrets.get("MODEL_PATH", "model.pkl")
 
 @st.cache_resource
@@ -70,22 +70,9 @@ st.markdown("---")
 CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
 
      labels[0]: {
-       "texts": ["데리버거는 롯데리아에서 아주 싼 메뉴입니다."],
-       "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPRX1_kBCOHq1oJQhbF_UEp5uWOKDW4S46Jg&s"],
-       "videos": ["https://www.youtube.com/watch?v=fiQPOCOgA7A"]
-     },
-
-
-     labels[1]: {
-       "texts": ["데리버거는 롯데리아에서 아주 싼 메뉴입니다."],
-       "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPRX1_kBCOHq1oJQhbF_UEp5uWOKDW4S46Jg&s"],
-       "videos": ["https://www.youtube.com/watch?v=fiQPOCOgA7A"]
-     },
-
-     labels[2]: {
-       "texts": ["데리버거는 롯데리아에서 아주 싼 메뉴입니다."],
-       "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPRX1_kBCOHq1oJQhbF_UEp5uWOKDW4S46Jg&s"],
-       "videos": ["https://www.youtube.com/watch?v=fiQPOCOgA7A"]
+       "texts": ["짬뽕의 특징과 유래", "국물 맛 포인트", "지역별 스타일 차이"],
+       "images": ["https://.../jjampong1.jpg", "https://.../jjampong2.jpg"],
+       "videos": ["https://youtu.be/XXXXXXXXXXX"]
      },
 }
 
