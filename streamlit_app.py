@@ -72,6 +72,7 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
      labels[0]: {
        "texts": ["네이마르는 브라질의 축구선수입니다.", "네이마르는 여친이 많습니다.", "네이마르는 에버랜드에 왔었어요"],
          "videos":["https://www.youtube.com/shorts/Edw7uK5bmj4"],
+         "images":["https://i.namu.wiki/i/SD_9KvB6pncpn42RTarlIvdjpwnQwW2VKf4CdmtzjauzGDwBaENEobbYgsmRO4byxQ1pI-v627Ni1tqonQU16A.webp"],
      },
      labels[1]: {
        "texts": ["네이마르는 브라질의 축구선수입니다.", "네이마르는 여친이 많습니다.", "네이마르는 에버랜드에 왔었어요"],
